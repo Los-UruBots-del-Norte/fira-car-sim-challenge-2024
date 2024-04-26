@@ -1,6 +1,6 @@
 # Useful commands
 ## Build image
-`$ docker build -t my_ros_image .`
+`$ docker build -t <DOCKER_IMAGE_NAME> .`
 ## Get available ROS topics
 `$ docker run -it --net=host <DOCKER_IMAGE_NAME> bash -c "source /opt/ros/noetic/setup.bash && source ~/catkin_ws/devel/setup.bash && rostopic list"`
 ## Start container with gazebo and ros with simple race track
