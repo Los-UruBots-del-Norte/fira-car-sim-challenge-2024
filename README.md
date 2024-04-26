@@ -18,3 +18,5 @@ needed to start developing in the simulator environment of the FIRA 2024 autonmo
 3. start image (remember to allow X11 server to interact with Docker, by: `$ xhost +local:docker`, otherwise you won't see a GUI)
 4. Usage examples in Docker/README.md
 
+Note: by default no GPU support with Docker. For enabling GPU support, additional steps have to be made depending of GPU type (Nvidia, Intel, AMD)
+
