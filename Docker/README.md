@@ -12,6 +12,6 @@
 ## Start container with gazebo and ros with urban track
 `$ docker run -it \
 --net=host \
-my_ros_image bash -c "source /opt/ros/noetic/setup.bash && source ~/catkin_ws/devel/setup.bash && roslaunch catvehicle_tests cmdvel_unsafetest.launch"`
+<DOCKER_IMAGE_NAME> bash -c "source /opt/ros/noetic/setup.bash && source ~/catkin_ws/devel/setup.bash && roslaunch catvehicle_tests cmdvel_unsafetest.launch"`
 
 
