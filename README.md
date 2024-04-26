@@ -2,6 +2,7 @@
 
 This repository contains a link to a virtual hard drive containing everything
 needed to start developing in the simulator environment of the FIRA 2024 autonmous car simulation challenge. Also includes Docker image, but GPU support can become complicated for AMD graphics. 
+This repository is based on the official FIRA repository for the autonomous car challenge 2024: https://github.com/Fira-Autonomous-Cars/FIRA-Autonomous-Cars-Simulator
 
 # Instructions
 ## Setup for virtual machine
